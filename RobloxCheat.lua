@@ -17,3 +17,6 @@ local Window = Rayfield:CreateWindow({
       FileName = "Skibidi"
    },
 })
+
+local HomeTab = Window:CreateTab("Home", nil)
+local HomeSection = Tab:CreateSection("Home")
